@@ -19,7 +19,7 @@ function getInputValue(){
 
     function exist(){
         // Displaying the value
-        document.getElementById("output").innerHTML = solvent+"-"+solute;
+        document.getElementById("output").innerHTML = solvent+"("+solute+")";
         // 
         document.getElementById('bigpic').style.display='inline';
         // document.getElementById('bigpic').style.opacity=0.5;
@@ -31,7 +31,7 @@ function getInputValue(){
     }
 
     function not_exist(){
-        document.getElementById("output").innerHTML = solvent+"-"+solute+" not available";
+        document.getElementById("output").innerHTML = solvent+"("+solute+") is not currently available.";
     }
 }
 
