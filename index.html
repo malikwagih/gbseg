@@ -1,28 +1,54 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>GB Segregation Database</title>>
+    <title>Grain Boundary Solute Segregation Database</title>
 </head>
 
 <body>
 
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+<h1>Grain Boundary Solute Segregation Database</h1>
 
-<input type="text" placeholder="Solvent" id="Solvent">
+<b>Reference:</b> Wagih, Malik, Peter M. Larsen, and Christopher A. Schuh. <a href="https://doi.org/10.1038/s41467-020-20083-6">"Learning grain boundary segregation energy spectra in polycrystals."</a>  Nature communications 11.1 (2020): 1-9.
+<br>
+<br>
+<a href = "./js/5s_41467_2020_20083_MOESM1_ESM.pdf">Compiled Segregation Spectra & References for Interatomic Potentials</a>
+<br>
+<br>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- <input type="text" placeholder="Solvent" id="Solvent">
 
 <input type="text" placeholder="Solute" id="Solute">
 
-<button type="button" onclick="getInputValue();">Query</button>
+<button type="button" onclick="getInputValue();">Query</button> -->
+
+<!-- <br></br> -->
+
+<select id="solvent" name="categoryDropdown">
+    <option value="hide"> ------ Choose Solvent ------ </option>
+    <!-- <option value="popul">Population</option>
+    <option value="area">Area</option> -->
+</select>
+
+<select id="solute" name="categoryDropdown">
+    <option value="hide"> ------ Choose Solute ------ </option>
+    <!-- <option value="popul">Population</option>
+    <option value="area">Area</option> -->
+</select>
+
+<br>
+<br>
 
 <div id="output" >  </div>
+<br></br>
+<!-- <img id="bigpic" src="./img/blank.png" style="display:none;vertical-align:top;" width=40%/> 
+<img id="poly" src="./img/blank.png" style="display:none;vertical-align:top;" width=35%/> 
+<br></br> -->
 
-<img id="bigpic" src="./js/blank.png" style="display:none;vertical-align:top;" width=40%/> 
-<img id="poly" src="./js/blank.png" style="display:none;vertical-align:top;" width=35%/> 
-
- <!-- style="display:none;" -->
 
 <script src="./js/script.js"></script>
 
