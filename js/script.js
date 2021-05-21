@@ -2,7 +2,7 @@
 // var solute="";
 // var pic = "./img/blank.png"; 
 // var picpoly = "./img/blank.png";
-var maxPicsNum=6;
+var maxPicsNum=7;
 
 var data={
     "Ag" : ['Al', 'Au', 'Co', 'Cu', 'Fe', 'Mg', 'Mo', 'Ni', 'Pb', 'Pd', 'Pt', 'Ta', 'Ti', 'W', 'Zr'],
